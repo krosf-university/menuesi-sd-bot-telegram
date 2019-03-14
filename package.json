@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "telegraf": "^3.27.1"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.3"
+  }
+}
