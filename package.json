@@ -1,12 +1,58 @@
 {
+  "author": {
+    "email": "rodrigosanabria22@gmail.com",
+    "name": "Rodrigo Sanabria",
+    "url": "https://krosf.com"
+  },
+  "bugs": {
+    "url": "https://github.com/krosf-university/menuesi-sd-bot-telegram/issues"
+  },
+  "contributors": [
+    {
+      "email": "kevin.lopezcala99@gmail.com",
+      "name": "Kevin López Cala"
+    }
+  ],
   "dependencies": {
+    "node-emoji": "^1.10.0",
+    "request": "^2.88.0",
     "telegraf": "^3.27.1"
+  },
+  "description": "Telegram bot to recibe images subscribe of users.",
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "@types/node-emoji": "^1.8.1",
+    "@types/request": "^2.48.1",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": ">=1",
+    "lint-staged": ">=8",
+    "prettier": "^1.16.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "name": "menuesi-sd-bot-telegram",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krosf-university/menuesi-sd-bot-telegram"
   },
   "scripts": {
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json"
   },
-  "devDependencies": {
-    "@types/node": "^11.11.3"
-  }
+  "version": "1.0.0"
 }
