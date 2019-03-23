@@ -1,5 +1,17 @@
 import { ContextMessageUpdate } from 'telegraf'
 
 export interface ContextMessageUpdateArgs extends ContextMessageUpdate {
-    command?: { raw: String; command: String; args: String[]; };
+  command?: { raw: string; command: string; args: string[] }
+}
+
+export interface NotifyUsers {
+  id: string
+  username: string
+  campus: string
+  chatid: number
+}
+
+export interface NotifyPayload {
+  image: string
+  users: NotifyUsers[]
 }

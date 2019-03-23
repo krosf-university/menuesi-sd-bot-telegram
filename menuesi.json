@@ -1,0 +1,21 @@
+{
+  "image": {
+    "chatid": 83534726,
+    "id": "plt@000000",
+    "url": "url",
+    "campus": "campus",
+    "date": "00/00/0000"
+  },
+  "subscribe": {
+    "campus": "campus",
+    "chatid": 83534726,
+    "id": "plt@000000",
+    "username": "username"
+  },
+  "subscribe_responde": {
+    "campus": "campus",
+    "chatid": 83534726,
+    "new": true,
+    "username": "username"
+  }
+}
