@@ -19,7 +19,7 @@
     "moment": "^2.24.0",
     "node-emoji": "^1.10.0",
     "request": "^2.88.0",
-    "telegraf": "^3.27.1"
+    "telegraf": "^3.32.0"
   },
   "description": "Telegram bot to recibe images subscribe of users.",
   "devDependencies": {
