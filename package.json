@@ -36,7 +36,7 @@
     "husky": ">=3",
     "lint-staged": ">=9",
     "prettier": "^1.16.4",
-    "typescript": "^3.5.3"
+    "typescript": "^3.7.5"
   },
   "husky": {
     "hooks": {
